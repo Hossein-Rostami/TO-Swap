@@ -130,7 +130,7 @@ function [J]=computeCompliance(nelx,nely,x,penal, U) %elemsIn,voidEps,
   end
 end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%
 function [xj]=randomselection(xi,nely,nelx,min_den)
 xj=xi;
 y1=randi(nely);
